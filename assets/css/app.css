@@ -1,0 +1,165 @@
+html {
+
+}
+
+body {
+	font-size: 1.2em;
+	
+}
+
+h1,h2,h3,h4,h5, .resalted{
+	font-family: 'Anton', serif;
+}
+
+.social i {
+	font-size: 2.5em;
+}
+
+.list-icons i {
+	font-size: 2.5em;
+}
+
+
+.list-inline li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.list-inline li:first-child {
+	padding-left: 0px;
+}
+
+
+.fa-facebook {
+	color: rgb(63,103,178);
+}
+
+.fa-youtube {
+	color: red; 
+}
+
+.fa-github {
+	color: silver;
+}
+
+.navbar {
+	background: rgb(89,64,127);
+	color: white;
+}
+
+
+
+
+
+
+.nav-link {
+	color: rgb(200,200,200) !important;
+}
+
+.nav-link:hover {
+	color: rgb(215,217,216) !important;
+}
+
+.active .nav-link {
+	color: white !important;
+}
+
+a {
+	color: rgb(89,64,127);
+}
+
+.btn{
+	border: none;
+	border-radius: 50% 20% 50% 20%;
+}
+
+
+.btn-p {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgb(89,64,127);
+
+  /*border-radius: 100%;*/
+}
+
+
+.btn-p:hover {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(89,64,127,.7);
+}
+
+.btn-p:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(89,64,127,.8);
+
+  box-shadow: none;
+}
+
+.btn-s {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(0,0,0,.4);
+}
+
+
+.btn-s:hover {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(89,64,127,.2);
+  color: rgba(0,0,0.4);
+}
+
+.btn-s:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(89,64,127,.3);
+  color: rgba(0,0,0.4);
+
+  box-shadow: none;
+}
+
+.card {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.navbar-center {
+	background: red;
+}
+
+@media(max-width: 576px ) {
+	.image-profile {
+		/*width: 100%;*/
+		/*margin: auto;*/
+
+		margin-bottom: 20px;
+	}
+}
+
+
+@media (min-width : 992px) {
+	
+	.navbar {
+		padding-left:  25%;
+		padding-right: 25%;
+	}
+	
+	hr {
+		width: 66.6666%;
+	}
+	
+}
+
+
+
+.img-thumbnail{
+	/*display: none;*/
+	border-radius: 50%;
+}
+
+hr {
+	border: solid 1px rgba(0,0,0,.1);
+}
