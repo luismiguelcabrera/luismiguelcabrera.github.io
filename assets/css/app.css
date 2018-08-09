@@ -163,3 +163,11 @@ a {
 hr {
 	border: solid 1px rgba(0,0,0,.1);
 }
+
+.sr {
+	visibility: hidden;
+}
+
+.social a:hover {
+	text-decoration: none;
+}
